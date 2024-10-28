@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.tnw{
+  max-width: 1140px;
+  min-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.links{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  list-style: none;
+  
+}
+.link{
+  list-style: none;
+  text-decoration: none;
+  line-height: 50px;
+  color: #000;
+ 
+}
+.link:hover{
+  color: #EF4423 ;
+  
+}
+.programmer{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* cards */
+.card1{
+  width: 350px;
+  height: 390px;
+  background: #B71C1C;
+}
+
+.card2{
+  width: 350px;
+  height: 390px;
+  background: #6A1B9A;
+}
+
+.card3{
+  width: 350px;
+  height: 390px;
+  background: #303F9F;
+}
+
+.card4{
+  width: 350px;
+  height: 390px;
+  background: #00695C;
+}
+
+.card-text h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+  font-weight: 700;
+  color: white;
+}
+.card-text p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: white;
+}
+
+.card-text{
+  padding: 10px;
+}
+
+.cards{
+  display: flex;
+  justify-content: center;
+}
+/* cards end */
+.glavni{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  width: 1400px;
+  margin: 0 auto;
+  height: auto;
+  background: #EDEDED;
+}
+
+.glavni-navosti{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* glavni */
+.glavni-text h4{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  max-width: 540px;
+}
+
+.glavni-text p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  max-width: 540px;
+}
+.tnw-end{
+  width: 1500px;
+  min-height: 50px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  background-color: #3A3838;
+  padding: 10px;
+}
+/* glavni end */
